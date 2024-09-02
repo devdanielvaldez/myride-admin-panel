@@ -2,13 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js");
 
 firebase.initializeApp({
-    apiKey: "AIzaSyBkFEj_PILbuy6JYDQLyBPiUHwg0Wej42c",
-    authDomain: "hexaride-fbdac.firebaseapp.com",
-    projectId: "hexaride-fbdac",
-    storageBucket: "hexaride-fbdac.appspot.com",
-    messagingSenderId: "30301959388",
-    appId: "1:30301959388:web:dc33ee586670882be57019",
-    measurementId: "G-ZTLK7ZL3TH"
+  apiKey: "AIzaSyD_5IV9n49aq0nqj8k1mU2Bhus5YJn_Rbc",
+  authDomain: "myride-taxi-prod.firebaseapp.com",
+  databaseURL: "https://myride-taxi-prod-default-rtdb.firebaseio.com",
+  projectId: "myride-taxi-prod",
+  storageBucket: "myride-taxi-prod.appspot.com",
+  messagingSenderId: "553189906417",
+  appId: "1:553189906417:web:2998df0e9643e1fdf01650"
 });
 
 const messaging = firebase.messaging();
